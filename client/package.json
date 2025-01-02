@@ -19,6 +19,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "testMatch": ["<rootDir>/src/__tests__/*.test.js"]
+  },
+
   "eslintConfig": {
     "extends": [
       "react-app",
